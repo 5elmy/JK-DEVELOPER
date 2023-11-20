@@ -1,6 +1,8 @@
 import React from 'react'
 import Style from "./GreatSoftware.module.css"
 import img from "../../assets/software/Rectangle 17.png"
+import { Image } from '@nextui-org/react'
+import Ball from '../../utils/Ball'
 export default function GreatSoftware() {
     return (
 
@@ -35,12 +37,17 @@ export default function GreatSoftware() {
                        
                     </div>
                     <div className='col-span-6  '>
-                        <div className={`${Style.main} `}>
-                           <div className=' translate-x-1 '>
-                           <img src={img} className='' alt="" />
+                       
+                       
+                           <div className=' relative '>
+                           <div  className="w-[40px] h-[40px] bg-gradient-to-tr from-[#FFEF5E] to-[#F7936F] rotate-[255deg]  rounded-full absolute top-[-15px] left-[-10px]"></div>
+                            
+                            
+                           <Image src={img} alt="" />
+                           <div style={{background: "var(--gradient-primary-bg, linear-gradient(225deg, #F76680 0%, #57007B 100%))"}} className="w-[40px] h-[40px]   rounded-full absolute bottom-[-20px] left-[35%] "></div>
+
                            </div>
 
-                        </div>
                     </div>
                       
                 </div>
@@ -51,12 +58,14 @@ export default function GreatSoftware() {
                                 {/* {2} */}
                     
                     <div className='col-span-6  '>
-                        <div className={`${Style.main2}`}>
-                           <div className=''>
-                           <img src={img} className=' translate-x-1' alt="" />
-                           </div>
+                    <div className=' relative  '>
+                            
+                            
+                           <div style={{background: "var(--gradient-primary-bg, linear-gradient(225deg, #F76680 0%, #57007B 100%))"}} className="w-[35px] h-[35px]  rounded-full absolute top-[-13px]  left-[85%] "></div>
+                           <Image src={img} alt="" />
+                           <div  className="w-[40px] h-[40px] bg-gradient-to-tr from-[#FFEF5E] to-[#F7936F] rotate-[255deg]  rounded-full absolute bottom-[-20px] left-[35%]"></div>
 
-                        </div>
+                           </div>
                     </div>
                    
                     <div className='col-span-6   p-5  flex justify-center items-center   '>
@@ -107,12 +116,15 @@ export default function GreatSoftware() {
                        
                     </div>
                     <div className='col-span-6  '>
-                        <div className={`${Style.main3}`}>
-                           <div className=''>
-                           <img src={img} className=' translate-x-1 translate-y-1' alt="" />
-                           </div>
-
-                        </div>
+                    <div className=' relative  '>
+                            
+                            
+                            <div style={{background: "var(--gradient-primary-bg, linear-gradient(225deg, #F76680 0%, #57007B 100%))"}} className="w-[35px] h-[35px]  rounded-full absolute top-[-13px]  left-[45%] "></div>
+                            <Image src={img} alt="" />
+                            <div  className="w-[40px] h-[40px] bg-gradient-to-tr from-[#FFEF5E] to-[#F7936F] rotate-[255deg]  rounded-full absolute bottom-[-20px] left-[-20px]"></div>
+ 
+                            </div>
+                        
                     </div>
                     
 

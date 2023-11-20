@@ -8,7 +8,9 @@ export const content = [
   "./src/**/*.{js,jsx,ts,tsx}",
 ];
 export const theme = {
-  extend: {},
+  extend: {    background: {
+    'gradient-warning': 'red',
+  },},
 };
 export const darkMode = "class";
 export const plugins = [nextui()];

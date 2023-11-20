@@ -14,7 +14,7 @@ import {ThemeProvider as NextThemesProvider} from "next-themes";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <NextUIProvider>
-  <NextThemesProvider attribute="class" >
+  <NextThemesProvider attribute="class" defaultTheme='light'>
       <App />
   </NextThemesProvider>
 </NextUIProvider>
