@@ -1,0 +1,38 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  scrollbar-width: thin;
+  scrollbar-color: #000 #f4f4f4;
+ 
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.hamada{
+  border-radius: 50%;
+}
+
+.ant-radio-checked .ant-radio-inner{
+  border-color: #FC746C !important ;
+  background-color: #FC746C !important;
+  pointer-events: none !important;
+
+  }
+
+    
+.adjust_button_hover_drawer.ant-btn:hover  { border-color: white !important; }
+.adjust_button_hover_drawer.ant-btn:focus { border-color: white !important; }

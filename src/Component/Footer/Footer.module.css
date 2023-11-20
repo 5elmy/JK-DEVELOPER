@@ -1,0 +1,43 @@
+.foo
+{
+    color: var(--gray-gray-700, #4A5568);
+
+/* Footer/Footer-sm */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 10px; /* 71.429% */
+letter-spacing: -0.07px;
+}
+
+.lorem {
+    color: var(--gray-gray-600, #718096);
+
+/* Paragraphs/para-1 */
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.header
+{
+color: var(--gray-gray-700, #4A5568);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.09px;
+}
+.links{
+    color: var(--gray-gray-600, #718096);
+
+/* Footer/Footer-links */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 236.3%; /* 37.808px */
+}
