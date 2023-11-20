@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JK-DEVELOPER/static/css/main.3c0fa9ca.css",
-    "main.js": "/JK-DEVELOPER/static/js/main.eed71b7c.js",
+    "main.css": "/JK-DEVELOPER/static/css/main.d5743def.css",
+    "main.js": "/JK-DEVELOPER/static/js/main.d8492864.js",
     "static/media/Rectangle 17.png": "/JK-DEVELOPER/static/media/Rectangle 17.3903ae1eb4f406c0459e.png",
     "static/media/Group 79.png": "/JK-DEVELOPER/static/media/Group 79.d1815d34fe7020d84d97.png",
     "static/media/Ellipse 5.svg": "/JK-DEVELOPER/static/media/Ellipse 5.f51c998c4a6c6887d268def7cc9adc8e.svg",
@@ -13,11 +13,11 @@
     "static/media/fluent_comma-24-regular.svg": "/JK-DEVELOPER/static/media/fluent_comma-24-regular.ef2e28c63db0ef97f017.svg",
     "static/media/fluent_comma-24-regular2.svg": "/JK-DEVELOPER/static/media/fluent_comma-24-regular2.e4fb9aa5c610a2d0a394.svg",
     "index.html": "/JK-DEVELOPER/index.html",
-    "main.3c0fa9ca.css.map": "/JK-DEVELOPER/static/css/main.3c0fa9ca.css.map",
-    "main.eed71b7c.js.map": "/JK-DEVELOPER/static/js/main.eed71b7c.js.map"
+    "main.d5743def.css.map": "/JK-DEVELOPER/static/css/main.d5743def.css.map",
+    "main.d8492864.js.map": "/JK-DEVELOPER/static/js/main.d8492864.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c0fa9ca.css",
-    "static/js/main.eed71b7c.js"
+    "static/css/main.d5743def.css",
+    "static/js/main.d8492864.js"
   ]
 }
