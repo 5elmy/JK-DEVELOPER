@@ -8,6 +8,7 @@ import HowDevelopment from '../HowDevelopment/HowDevelopment'
 import GreatSoftware from '../GreatSoftware/GreatSoftware'
 import DevelopmentApptoach from '../DevelopmentApproach/DevelopmentApptoach'
 import FeedBack from '../FeedBack/FeedBack'
+import Services from '../Services/Services'
 
 export default function Main() {
   return (
@@ -15,6 +16,7 @@ export default function Main() {
    {/* <Navbar/>
    <Outlet/>
    <Footer/> */}
+   {/* <Services/> */}
    <Navbar />
    <Home/>
    <FeedBack/>
